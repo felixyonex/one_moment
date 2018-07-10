@@ -4,23 +4,25 @@
 
 ### Index Page
 
-![image index](https://)
+![image index](https://github.com/felixyonex/one_moment/tree/master/img-folder/index.jpg)
 
 ### Menu
 
-![image aside](https://)
+![image aside](https://github.com/felixyonex/one_moment/tree/master/img-folder/aside.jpg)
 
 ### Authors
 
-![image author](https:)
+![image author](https://github.com/felixyonex/one_moment/tree/master/img-folder/author.jpg)
+
 
 ### Category
 
-![image category](https://)
+![image category](https://github.com/felixyonex/one_moment/tree/master/img-folder/category.jpg)
+
 
 ### Setting
 
-![image setting](https://)
+![image setting](https://github.com/felixyonex/one_moment/tree/master/img-folder/setting.jpg)
 
 ## Apache environment building
 
