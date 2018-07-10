@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- anti-stealing-link -->
+	<meta name="referrer" content="never">
+	<title>One Moment</title>
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet/less" href="./public/less/main.less">
+	<script src="./public/libs/less.js"></script>
+	<script src="./bower_components/angular/angular.min.js"></script>
+	<script src="./bower_components/angular-route/angular-route.min.js"></script>
+	<script src="./scripts/app.js"></script>
+	<script src="scripts/myself/myself.js"></script>
+	<script src="scripts/myself/myself_config.js"></script>
+	<script src="scripts/myself/myself_run.js"></script>
+	<script src="scripts/myself/myself_navsCtrl.js"></script>
+	<script src="scripts/myself/myself_todayCtrl.js"></script>
+	<script src="scripts/myself/myself_olderCtrl.js"></script>
+	<script src="scripts/myself/myself_authorCtrl.js"></script>
+	<script src="scripts/myself/myself_categoryCtrl.js"></script>
+	<script src="scripts/myself/myself_favouriteCtrl.js"></script>
+	<script src="scripts/myself/myself_settingCtrl.js"></script>
+</head>
+<body ng-app="Yike">
+	<div class="viewport">
+		<!-- sidebar nav -->
+		<div ng-class="{navs: true,collapse: collapsed}" ng-controller="NavsCtrl">
+			<dl>
+				<dt class="login">
+					<div class="avatar">
+						<img src="./public/images/avatar.png" alt="">
+					</div>
+					<span>Login</span>
+				</dt>
+				<dd ng-class="{active: $index == key}" ng-repeat="nav in navs" ng-click="toggle()">
+					<a href="{{nav.link}}" class="{{nav.icon}}">
+						<span>{{nav.text}}</span>
+					</a>
+				</dd>
+			</dl>
+			<div class="extra">
+				<a href="javascript:;" class="icon-image">Night</a>
+				<a href="javascript:;" class="icon-download">Download</a>
+			</div>
+		</div>
+		<div class="container">
+			<!-- header -->
+			<div ng-class="{header: true,collapse: collapsed}">
+				<a href="javascript:;" ng-click="toggle()" class="menu icon-menu"></a>
+				<h2>{{title}}</h2>
+				<a href="javascript:;" class="search icon-search"></a>
+			</div>
+			<!-- main -->
+			<div ng-class="{body: true,collapse: collapsed}">
+				<img src="./public/images/loading.gif" ng-hide="loaded" class="loading" alt="">
+				<div ng-view></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
