@@ -4,20 +4,20 @@
 
 ### Index Page
 
-![image index](https://github.com/felixyonex/one_moment/tree/master/img-folder/index.jpg)
+![image index](https://github.com/felixyonex/one_moment/blob/master/img-folder/index.jpg)
 
 ### Menu
 
-![image aside](https://github.com/felixyonex/one_moment/tree/master/img-folder/aside.jpg)
+![image aside](https://github.com/felixyonex/one_moment/blob/master/img-folder/aside.jpg)
 
 ### Authors
 
-![image author](https://github.com/felixyonex/one_moment/tree/master/img-folder/author.jpg)
+![image author](https://github.com/felixyonex/one_moment/blob/master/img-folder/author.jpg)
 
 
 ### Category
 
-![image category](https://github.com/felixyonex/one_moment/tree/master/img-folder/category.jpg)
+![image category](https://github.com/felixyonex/one_moment/blob/master/img-folder/category.jpg)
 
 
 ### Setting
@@ -49,7 +49,7 @@ ServerAlias www.yike.com
 </VirtualHost>
 
 ```
-### Step 3：config hosts file（C:\Windows\System32\drivers\etc\hosts)
+### Step 3：config hosts file (C:\Windows\system32\drivers\etc\hosts)
 ```
 
 127.0.0.1 yike.com
@@ -57,4 +57,4 @@ ServerAlias www.yike.com
 
 ```
 ### Step 4: reboot Apache server
-```
+
