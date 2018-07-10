@@ -22,7 +22,7 @@
 
 ### Setting
 
-![image setting](https://github.com/felixyonex/one_moment/tree/master/img-folder/setting.jpg)
+![image setting](https://github.com/felixyonex/one_moment/blob/master/img-folder/setting.jpg)
 
 ## Apache environment building
 
